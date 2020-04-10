@@ -32,14 +32,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is like making a map for the browser, all the important things need to be labeled so it knows how to navigate it correctly. This help with things like screen-readers.
 
 2. What are the 4 areas of the box model?
+Starting from inwards to the outside, content, padding, border, and margin.
 
 3. While using flexbox, what axis does the following property work on: ```align-items: center```?
+The cross axis.
 
 4. Explain why git is valuable to a team of developers.
+Git allows teams to work on indepedent local copies making it possible for everyone to work on different parts of the website at once without breaking the main site.
 
 5. Define mobile-first design in your own words.
+Mobile first design is just what it says, your designs will be targeted toward the mobile audience instead of the desktop audience. This is important because the current amount of mobile users browsing the web are much higher than desktop users.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
