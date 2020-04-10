@@ -238,7 +238,71 @@ footer nav a {
 
 /* mobile */
 @media(max-width:500px){
-*{
+/* *{
     border: 1px solid red;
-}
+} */
+    .container {
+        width: 100%;
+    }
+
+    .navTop {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navTop a {
+        padding: 1% 0;
+    }
+
+    .navTop img {
+        width: 35%;
+        padding-bottom: 5%;
+    }
+
+    .top-content {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .top-content .text-container {
+        width: 100%;
+        padding: 0 5% 20px 5%;
+    }
+
+    .middle-content h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .middle-content .boxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .middle-content .boxes .box{
+        width: 25%;
+    }
+
+    .middle-content .boxes .box.five{
+        display:none;
+    }
+    .middle-content .boxes .box.six{
+        display:none;
+    }
+    .middle-content .boxes .box.seven{
+        display:none;
+    }
+    .middle-content .boxes .box.eight{
+        display:none;
+    }
+    .middle-content .boxes .box.nine{
+        display:none;
+    }
+    .middle-content .boxes .box.ten{
+        display:none;
+    }
 }
