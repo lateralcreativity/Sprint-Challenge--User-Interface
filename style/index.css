@@ -28,9 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -53,7 +50,12 @@ table {
 
 html, body {
     height: 100%;
+    font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+}
+body {
+    line-height: 1;
+    font-size: 1.6rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,6 +67,25 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/* top navbar styles */
+.navTop {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 3% 5% 0 0;
+}
+.navTop a {
+    color: black;
+    text-decoration: none;
+}
+.jumbo {
+    margin: 5% 0 3% 0;
+}
+.jumbo img {
+    width: 100%;
+}
+/* top navbar styles end */
 
 .container {
     width: 800px;
